@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #999;
+}
+
+form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #f0ecf1;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f0ecf1;
+}
+
+input[type="submit"] {
+    background-color: #c7e2ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3295ff;
+}
+
+input[type="button"] {
+    background-color: #71b4f6;
+    color: #f5ebeb;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2e8df9;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+select, input[type="number"], 
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #0056b3;
+}
